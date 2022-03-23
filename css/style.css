@@ -117,3 +117,93 @@ header {
 .hamburger.active span:last-child {
     transform: rotate(-45deg) scale(0.5) translate(4px);
 }
+
+.hero-section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 40px;
+    background-color: #fcfcfc;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.hero-section .spider-man {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.hero-content {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    padding-top: 40px;
+}
+
+.hero-content h2 {
+    color: #080800;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    text-transform: capitalize;
+}
+
+.hero-content .star-rating {
+    margin: 10px 0;
+}
+
+.hero-content .star-rating .icon {
+    display: inline-block;
+    color: #df1f2d;
+    font-size: 22px;
+}
+
+.hero-content p {
+    color: #080808;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: capitalize;
+}
+
+.btn-group {
+    margin-top: 30px;
+}
+
+.btn-group .btn {
+    display: inline-block;
+    color: #080808;
+    margin-right: 20px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 2px solid #df1f2d;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+.btn-group .btn-fill {
+    color: #fcfcfc;
+    background-color: #df1f2d;
+}
+
+.btn-group .btn-stroke {
+    color: #df1f2d;
+}
+
+.btn-group .btn-fill:hover {
+    color: #df1f2d;
+    background-color: transparent;
+}
+
+.btn-group .btn-stroke:hover {
+    color: #fcfcfc;
+    background-color: #df1f2d;
+    border-color: #df1f2d;
+}

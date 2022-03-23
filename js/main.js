@@ -6,5 +6,6 @@ $(document).ready(function () {
 
     $(".hamburger").on("click", function (){
         $(this).toggleClass("active");
+        $(".navbar ul").toggleClass("active");
     })
 });

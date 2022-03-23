@@ -150,6 +150,7 @@ header {
     font-weight: 600;
     line-height: 60px;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .hero-content .star-rating {

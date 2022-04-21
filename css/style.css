@@ -30,14 +30,20 @@ header {
     justify-content: space-between;
 }
 
+.navbar a {
+    cursor: cell;
+}
+
 .navbar .logo {
- height: 25px;
+ height: 100px;
  vertical-align: middle;   
 }
 
 .navbar ul {
     display: flex;
     align-items: center;
+    margin-top: -40px;
+    margin-right: 25px;
 }
 
 .navbar ul li {
@@ -154,7 +160,8 @@ header {
 }
 
 .hero-content .star-rating {
-    margin: 10px 0;
+    margin: 15px 0;
+    text-align: center;
 }
 
 .hero-content .star-rating .icon {
@@ -172,6 +179,7 @@ header {
 
 .btn-group {
     margin-top: 30px;
+    text-align: center;
 }
 
 .btn-group .btn {

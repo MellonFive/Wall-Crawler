@@ -30,10 +30,6 @@ header {
     justify-content: space-between;
 }
 
-.navbar a {
-    cursor: cell;
-}
-
 .navbar .logo {
  height: 100px;
  vertical-align: middle;   

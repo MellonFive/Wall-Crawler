@@ -19,8 +19,14 @@ header {
 }
 
 .navbar .logo {
- height: 100px;
- vertical-align: middle;   
+    height: 100px;
+    vertical-align: middle;
+    transition: .5s;
+}
+
+.navbar .logo:hover {
+    transform: scale(1.6);
+    rotate: 160deg;
 }
 
 .navbar ul {

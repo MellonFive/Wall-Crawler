@@ -1,5 +1,7 @@
 /* Media query */
 
+/* CONSERTAR RESPONSIVO. MENU QUEBRADO */
+
 @media (max-width: 992px) {
     header {
         padding: 15px 20px;

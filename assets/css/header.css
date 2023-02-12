@@ -1,0 +1,114 @@
+header {
+    position: absolute;
+    width: 100%;
+    padding: 40px;
+    z-index: 9999;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo {
+    height: 100px;
+    vertical-align: middle;
+    transition: .8s;
+}
+
+.navbar .logo:hover {
+    transform: scale(1.3);
+    rotate: 360deg;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    margin-top: -40px;
+    margin-right: 95px;
+}
+
+.navbar ul li {
+    margin: 0 20px;
+    list-style: none;
+}
+
+.navbar ul li a {
+    position: relative;
+    padding: 8px 0;
+    color: #080808;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 0.3s linear;
+}
+
+.navbar ul li a:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: auto;
+    width: 0;
+    height: 3px;
+    background-color: #df1f2d;
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+    color: #df1f2d;
+}
+
+.navbar ul li a:hover::after,
+.navbar ul li a:hover::after {
+    width: 100%;
+    right: auto;
+    left: 0;
+}
+
+.hamburger {
+    display: none;
+    position: relative;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.hamburger span {
+    display: inline-block;
+    width: 100%;
+    height: 3px;
+    background-color: #fcfcfc;
+    position: absolute;
+    top: calc(50% - 1.5px);
+    left: 0;
+    transition: all 0.2s;
+}
+
+.hamburger span:first-child {
+    transform: translateY(-300%);
+    transform-origin: right top;
+}
+
+.hamburger span:last-child {
+    transform: translateY(300%);
+    transform-origin: right bottom;
+}
+
+.hamburger.active span:first-child {
+    transform: rotate(45deg) scale(0.5) translate(4px);
+}
+
+.hamburger.active span:last-child {
+    transform: rotate(-45deg) scale(0.5) translate(4px);
+}

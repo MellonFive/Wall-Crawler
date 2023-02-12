@@ -1,0 +1,1 @@
+Responsivo está quebrado, talvez no JS. Consertar.

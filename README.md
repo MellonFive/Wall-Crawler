@@ -2,6 +2,6 @@
 
 <h2 align="center">Praticando HTML e CSS com responsividade</h2>
 
-![README](images/README.png)
+![README](assets/images/README.png)
 
 <h3 align="center">Link do projeto no youtube: https://www.youtube.com/watch?v=USev7QRKIq8</h3>
